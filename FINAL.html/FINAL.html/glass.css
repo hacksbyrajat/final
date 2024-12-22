@@ -1,0 +1,45 @@
+main{
+    display: flex;
+ 
+
+}
+html body{
+    width: 100%;
+}
+.hero, .hero1 {
+    display: flex; 
+    justify-content: space-around; 
+    gap: 20px; 
+}
+
+.hero div, .hero1 div {
+    text-align: center; 
+    flex: 1; 
+}
+
+img {
+    max-width: 100%; 
+    height: auto;
+}
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+    justify-items: center; 
+    align-items: center;
+    margin: 20px;
+}
+
+.image-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-item p {
+    text-align: center; 
+}
+h1{
+    justify-content: center;
+    color: cornflowerblue;
+    font-size: xx-large;
+}
